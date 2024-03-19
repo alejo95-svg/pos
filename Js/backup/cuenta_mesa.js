@@ -1,0 +1,1 @@
+/* validar que los inputs de los productos no puedan ser iguales a ceros */

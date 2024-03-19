@@ -1,0 +1,22 @@
+<?php 
+require ('../Controller/connection.php');
+include '../Model/consulta.php';
+
+if(isset($_POST['submit_form'])){
+    $n1 = $_POST['pNombre'];
+    $n2 = $_POST['sNombre'];
+    $a1 = $_POST['pApellido'];
+    $a2 = $_POST['sApellido'];
+    $transform = translate_id($_POST['genero'], $_POST['tDocumento'], $_POST['rol']);
+    $g = $transform[0];
+    $td = $transform[1];
+    $nd = $_POST['nDocumento'];
+    $c = $_POST['correo'];
+    $nc = $_POST['nCelular'];
+    $dir = $_POST['direccion'];
+    $rol = $transform[2];
+    echo crearUsuario ($n1, $n2, $a1, $a2, $g, $td, $nd, $c, $nc, $dir, $rol);
+}
+
+
+

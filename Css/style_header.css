@@ -1,0 +1,18 @@
+:root {
+    --fuente: monospace;
+    --fuente_sm: 14px;
+    --fuente_sm_title: 20px;
+    --fuente_md_title: 25px;
+    --gris_parrafo: #797979;
+    --verde_activo: #00951D;
+    --verde_inactivo: rgba(0, 149, 29, 0.61);
+    --verde_fondo: linear-gradient(white, #00951D);
+    --blanco_fondo: #D9D9D9;
+    --rojo_brand: #6D090D;
+    --rojo_activo: #B22323;
+    --rojo_inactivo: rgba(178, 35, 32, 0.20);
+    --borde: 1px solid black; 
+    --borde_focus: 1px solid #00951D;
+}
+
+
