@@ -1,3 +1,0 @@
-Despues de crear la mesa principal se pueden agregar las mesas unidas a esta
-
-cuando una mesa se active en la BD date pasa a ser la fecha con hora, cuando se pague la mesa date pasa a ser null
